@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="https://www.linkedin.com/in/dagim-jalleta-a533a6253" class="name">Dagim J.</a>
+      <nav class="navbar">
+        <a href="./home.html">Home</a>
+        <a href="./about.html">About</a>
+        <a href="./portfolio.html">Porfolio</a>
+      </nav>
+    </header>
+    <main class="section" id="about" data-aos="fade-up" data-aos-delay="300">
+      <h2 class="projects-title-text">Projects</h2>
+      <section class="projects-container" id="projects">
+        <div class="project-item">
+          <a href="https://github.com/Dagimt1/html-fun_hogwarts">
+            <img
+              class="project-image"
+              src="./images/hogwarts.png"
+              alt="Project 1"
+            />
+            <h3 class="project-title">Welcome to Hogwarts</h3>
+            <p class="project-description">
+              A Fun Website I Created to Share Information About Hogwarts
+            </p>
+          </a>
+        </div>
+        <div class="project-item">
+          <a href="https://github.com/Dagimt1/Mondrian-Project">
+            <img
+              class="project-image"
+              src="./images/final-result.png"
+              alt="Project 2"
+            />
+            <h3 class="project-title">Mondrian Project</h3>
+            <p class="project-description">
+              Website Built Entirely with CSS Grids to Emulate One of the Most
+              Famous Mondrian Paintings, Reflecting His Obsession with Grids
+            </p>
+          </a>
+        </div>
+
+        <div class="project-item">
+          <a
+            href="https://github.com/Dagimt1/Steven-s-Book-House/blob/main/final-result.png"
+          >
+            <img
+              class="project-image"
+              src="./images/book-house.png"
+              alt="Project 3"
+            />
+            <h3 class="project-title">Dagim's Book House</h3>
+            <p class="project-description">
+              Website That Tracks the Books I've Read
+            </p>
+          </a>
+        </div>
+      </section>
+    </main>
+    <script src="input.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1200,
+        easing: "ease-out-quart",
+        once: false,
+      });
+    </script>
+  </body>
+</html>
